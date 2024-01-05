@@ -18,7 +18,7 @@
 		"title": "ABOUT ME",
 		"paragraph_one": "I am a Security Engineer currently pursuing Masters in Security Informatics from Johns Hopkins University. I am technology enthusiast with interest in Application Security, Pentesting, Reverse Engineering and using Machine Learning for Security.",
 		"paragraph_two": "I have a good foundation in the Cybersecurity Frameworks namely, NIST, MITRE, OWASP, and have worked with tools like Burpsuite, Owasp ZAP, Wireshark, Metasploit, Ghidra, NMap, OpenSSL, Lynis, Microsoft Threat Modeling Tool, Valgrind, etc and have implemented proof-of-exploitations for games like Duke Nukem.",
-		"paragraph_three": "I have Bachelor in Technology from IIITS, India in Computer Science and Engineering and am apt in Secure Software Development Life Cycle (SDLC) integration and Cloud Computing. I am an active CTF participant and an Kaggle Contributor. I am apt in competitive programming in C/C++, and Python languages.",
+		"paragraph_three": "I have Bachelor in Technology from IIITS, India in Computer Science and Engineering and am apt in Secure Software Development Life Cycle (SDLC) integration and Cloud Computing. I am an active CTF participant and a Kaggle Contributor. I am apt in competitive programming in C/C++, and Python languages.",
 		"github_card": {
 			"bio": "Security Engineer with interest in Application Security and experience in Secure Software Development."
 		},
