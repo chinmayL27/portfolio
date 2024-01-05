@@ -5,7 +5,7 @@ import { SettingsContext } from "@/context/SettingsContext";
 
 //Third's librarys
 import styled from "styled-components";
-import Image from "next/image";
+// import Image from "next/image";
 import ScrollAnimation from "react-animate-on-scroll";
 
 //Custom components
