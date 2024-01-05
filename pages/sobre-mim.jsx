@@ -12,8 +12,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
 import CarrouselTechs from "@/components/CarrouselTechs";
 
-import nextConfig from "next.config";
-
 //PDFs
 // import curriculoPTBR from "../public/pdf/curriculo-ptbr.pdf";
 
@@ -289,7 +287,7 @@ export default function SobreMim(props) {
 							<GithubStatsCard>
 								<div className="background" />
 								<div className="img">
-									<Image src="/img/user-photo.jpg" loader={nextConfig.images.loader} alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
+									<Image src="/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
 								</div>
 								<div className="content">
 									<h3>Chinmay Lohani</h3>
