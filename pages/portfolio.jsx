@@ -555,8 +555,8 @@ export default function Portifolio() {
 					<ScrollAnimation animateIn="fadeIn" animateOnce key={project.id}>
 						<WrapperProjectCard>
 							<WrapperTextChip>
-								{project.typeProject.map((chip, idx) => (
-									<div key={idx}>
+								{project.typeProject.map((chip) => (
+									<div key={chip.id}>
 										<span>{chip}</span>
 									</div>
 								))}
@@ -569,8 +569,8 @@ export default function Portifolio() {
 							</div>
 							<WrapperTechStack>
 								<div>
-									{project.techs.map((icone, i) => (
-										<div key={i}>{icone}</div>
+									{project.techs.map((icone) => (
+										<div key={icone.id}>{icone}</div>
 									))}
 								</div>
 
