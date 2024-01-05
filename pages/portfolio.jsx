@@ -272,14 +272,14 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_1.title,
 			description: language.portifolioPage.projects.id_1.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="PYTHON">
-					<LogoPython />
-				</Tooltip>,
-				<Tooltip toolTipText="CYBER SECURITY">
-					<Security />
-				</Tooltip>,
-			],
+			// techs: [
+			// 	<Tooltip toolTipText="PYTHON">
+			// 		<LogoPython />
+			// 	</Tooltip>,
+			// 	<Tooltip toolTipText="CYBER SECURITY">
+			// 		<Security />
+			// 	</Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_1.url,
 			typeProject: language.portifolioPage.projects.id_1.filter,
 			created_at: language.portifolioPage.projects.id_1.createdAt,
@@ -289,26 +289,26 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_2.title,
 			description: language.portifolioPage.projects.id_2.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="ReactJS">
-					<ReactLogo />
-				</Tooltip>,
-				<Tooltip toolTipText="Expo">
-					<Expo />
-				</Tooltip>,
-				<Tooltip toolTipText="Javascript">
-					<Javascript />
-				</Tooltip>,
-				<Tooltip toolTipText="NodeJS">
-					<Nodejs />
-				</Tooltip>,
-				<Tooltip toolTipText="CSS">
-					<Css3 />
-				</Tooltip>,
-				<Tooltip toolTipText="MongoDB">
-					<Mongodb />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="ReactJS">
+			// 	<ReactLogo />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Expo">
+			// 	<Expo />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Javascript">
+			// 	<Javascript />
+			// </Tooltip>,
+			// <Tooltip toolTipText="NodeJS">
+			// 	<Nodejs />
+			// </Tooltip>,
+			// <Tooltip toolTipText="CSS">
+			// 	<Css3 />
+			// </Tooltip>,
+			// <Tooltip toolTipText="MongoDB">
+			// 	<Mongodb />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_2.url,
 			typeProject: language.portifolioPage.projects.id_2.filter,
 			created_at: language.portifolioPage.projects.id_2.createdAt,
@@ -318,32 +318,32 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_3.title,
 			description: language.portifolioPage.projects.id_3.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="ReactJS">
-					<ReactLogo />
-				</Tooltip>,
-				<Tooltip toolTipText="Expo">
-					<Expo />
-				</Tooltip>,
-				<Tooltip toolTipText="Javascript">
-					<Javascript />
-				</Tooltip>,
-				<Tooltip toolTipText="NodeJS">
-					<Nodejs />
-				</Tooltip>,
-				<Tooltip toolTipText="CSS">
-					<Css3 />
-				</Tooltip>,
-				<Tooltip toolTipText="MongoDB">
-					<Mongodb />
-				</Tooltip>,
-				<Tooltip toolTipText="Jest">
-					<Jest />
-				</Tooltip>,
-				<Tooltip toolTipText="SqLite">
-					<Sqlite />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="ReactJS">
+			// 	<ReactLogo />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Expo">
+			// 	<Expo />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Javascript">
+			// 	<Javascript />
+			// </Tooltip>,
+			// <Tooltip toolTipText="NodeJS">
+			// 	<Nodejs />
+			// </Tooltip>,
+			// <Tooltip toolTipText="CSS">
+			// 	<Css3 />
+			// </Tooltip>,
+			// <Tooltip toolTipText="MongoDB">
+			// 	<Mongodb />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Jest">
+			// 	<Jest />
+			// </Tooltip>,
+			// <Tooltip toolTipText="SqLite">
+			// 	<Sqlite />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_3.url,
 			typeProject: language.portifolioPage.projects.id_3.filter,
 			created_at: language.portifolioPage.projects.id_3.createdAt,
@@ -353,14 +353,14 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_4.title,
 			description: language.portifolioPage.projects.id_4.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="NodeJS">
-					<Nodejs />
-				</Tooltip>,
-				<Tooltip toolTipText="Javascript">
-					<Javascript />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="NodeJS">
+			// 	<Nodejs />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Javascript">
+			// 	<Javascript />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_4.url,
 			typeProject: language.portifolioPage.projects.id_4.filter,
 			created_at: language.portifolioPage.projects.id_4.createdAt,
@@ -370,23 +370,23 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_5.title,
 			description: language.portifolioPage.projects.id_5.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="ReactJs">
-					<ReactLogo />
-				</Tooltip>,
-				<Tooltip toolTipText="Javascript">
-					<Javascript />
-				</Tooltip>,
-				<Tooltip toolTipText="Google Cloud">
-					<GoogleCloud />
-				</Tooltip>,
-				<Tooltip toolTipText="Sass">
-					<Sass />
-				</Tooltip>,
-				<Tooltip toolTipText="Firebase">
-					<Firebase />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="ReactJs">
+			// 	<ReactLogo />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Javascript">
+			// 	<Javascript />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Google Cloud">
+			// 	<GoogleCloud />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Sass">
+			// 	<Sass />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Firebase">
+			// 	<Firebase />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_5.url,
 			typeProject: language.portifolioPage.projects.id_5.filter,
 			created_at: language.portifolioPage.projects.id_5.createdAt,
@@ -396,17 +396,17 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_6.title,
 			description: language.portifolioPage.projects.id_6.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="ReactJS">
-					<ReactLogo />
-				</Tooltip>,
-				<Tooltip toolTipText="Typescript">
-					<Typescript />
-				</Tooltip>,
-				<Tooltip toolTipText="SqLite">
-					<Sqlite />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="ReactJS">
+			// 	<ReactLogo />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Typescript">
+			// 	<Typescript />
+			// </Tooltip>,
+			// <Tooltip toolTipText="SqLite">
+			// 	<Sqlite />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_6.url,
 			typeProject: language.portifolioPage.projects.id_6.filter,
 			created_at: language.portifolioPage.projects.id_6.createdAt,
@@ -416,20 +416,20 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_7.title,
 			description: language.portifolioPage.projects.id_7.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="NodeJS">
-					<Nodejs />
-				</Tooltip>,
-				<Tooltip toolTipText="Typescript">
-					<Typescript />
-				</Tooltip>,
-				<Tooltip toolTipText="SqLite">
-					<Sqlite />
-				</Tooltip>,
-				<Tooltip toolTipText="Jest">
-					<Jest />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="NodeJS">
+			// 	<Nodejs />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Typescript">
+			// 	<Typescript />
+			// </Tooltip>,
+			// <Tooltip toolTipText="SqLite">
+			// 	<Sqlite />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Jest">
+			// 	<Jest />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_7.url,
 			typeProject: language.portifolioPage.projects.id_7.filter,
 			created_at: language.portifolioPage.projects.id_7.createdAt,
@@ -439,20 +439,20 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_8.title,
 			description: language.portifolioPage.projects.id_8.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="NodeJS">
-					<Nodejs />
-				</Tooltip>,
-				<Tooltip toolTipText="Javascript">
-					<Javascript />
-				</Tooltip>,
-				<Tooltip toolTipText="MongoDB">
-					<Mongodb />
-				</Tooltip>,
-				<Tooltip toolTipText="AWS">
-					<Amazonaws />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="NodeJS">
+			// 	<Nodejs />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Javascript">
+			// 	<Javascript />
+			// </Tooltip>,
+			// <Tooltip toolTipText="MongoDB">
+			// 	<Mongodb />
+			// </Tooltip>,
+			// <Tooltip toolTipText="AWS">
+			// 	<Amazonaws />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_8.url,
 			typeProject: language.portifolioPage.projects.id_8.filter,
 			created_at: language.portifolioPage.projects.id_8.createdAt,
@@ -462,17 +462,17 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_9.title,
 			description: language.portifolioPage.projects.id_9.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="ReactJS">
-					<ReactLogo />
-				</Tooltip>,
-				<Tooltip toolTipText="Expo">
-					<Expo />
-				</Tooltip>,
-				<Tooltip toolTipText="Javascript">
-					<Javascript />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="ReactJS">
+			// 	<ReactLogo />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Expo">
+			// 	<Expo />
+			// </Tooltip>,
+			// <Tooltip toolTipText="Javascript">
+			// 	<Javascript />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_9.url,
 			typeProject: language.portifolioPage.projects.id_9.filter,
 			created_at: language.portifolioPage.projects.id_9.createdAt,
@@ -482,11 +482,11 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_10.title,
 			description: language.portifolioPage.projects.id_10.description,
 			liveDemoUrl: null,
-			techs: [
-				<Tooltip toolTipText="Python">
-					<Python />
-				</Tooltip>,
-			],
+			// techs: [
+			// <Tooltip toolTipText="Python">
+			// 	<Python />
+			// 	// </Tooltip>,
+			// ],
 			sourceCodeLink: language.portifolioPage.projects.id_10.url,
 			typeProject: language.portifolioPage.projects.id_10.filter,
 			created_at: language.portifolioPage.projects.id_10.createdAt,
@@ -568,11 +568,11 @@ export default function Portifolio() {
 								<BodyText>{project.description}</BodyText>
 							</div>
 							<WrapperTechStack>
-								<div>
+								{/* <div>
 									{project.techs.map((icone) => (
 										<div key={icone.id}>{icone}</div>
 									))}
-								</div>
+								</div> */}
 
 								<WrapperButtons>
 									{project.liveDemoUrl != null && (
