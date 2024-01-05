@@ -130,6 +130,7 @@
 			"labelCategory": "Category",
 			"labelInstitution": "Institution",
 			"labelProfessionalCourse": "Professional course",
+			"labelMasterDegree": "Masters degree",
 			"labelBachelorDegree": "Bachelor degree",
 			"labelExtensionCourse": "Extension course"
 		}
