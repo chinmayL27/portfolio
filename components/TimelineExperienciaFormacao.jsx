@@ -80,9 +80,9 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<LearningAppIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2011</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>Aug - Dec 2023</h3>
 					<BoldText>
-						{language.experiencePage.timeline.labelInstitution}: <span>S.O.S. Educação Profissional</span>
+						{language.experiencePage.timeline.labelInstitution}: <span>Graduate Teaching Assistant</span>
 					</BoldText>
 					<BoldText>
 						{language.experiencePage.timeline.labelCategory}: <span>{language.experiencePage.timeline.labelProfessionalCourse}</span>
