@@ -120,7 +120,7 @@ export default function ContactMeEmail() {
 					<textarea placeholder="messages" id="message" />
 				</WrapperInput>
 
-				<Button>Enviar</Button>
+				<Button>Send</Button>
 			</ContainerForm>
 		</ContactMeContainer>
 	);
