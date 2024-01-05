@@ -551,8 +551,8 @@ export default function Portifolio() {
 			</ChipTechOptions>
 
 			<ContainerGrid view={view}>
-				{array_projects.map((project, index) => (
-					<ScrollAnimation animateIn="fadeIn" animateOnce key={index}>
+				{array_projects.map((project) => (
+					<ScrollAnimation animateIn="fadeIn" animateOnce key={project.id}>
 						<WrapperProjectCard>
 							<WrapperTextChip>
 								{project.typeProject.map((chip, idx) => (
