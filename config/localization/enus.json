@@ -1,0 +1,208 @@
+{
+	"id": "enus",
+	"navbarMenu": {
+		"labelHome": "HOME",
+		"labelAboutMe": "ABOUT ME",
+		"labelPortifolio": "PROJECTS",
+		"labelExperience": "EXPERIENCE",
+		"labelAchievements": "ACHIEVEMENTS"
+	},
+	"landingPage": {
+		"apresentationText": "Hello, I'm",
+		"firstTypeText": "Security Engineer you need...",
+		"secondTypeText": "Chinmay Lohani",
+		"resumeText": "Security Engineer professional. I work on Software and Application Security, performing pentesting, reverse engineering, and ensure secure code practices.",
+		"buttonText": "More about Me"
+	},
+	"aboutMePage": {
+		"title": "ABOUT ME",
+		"paragraph_one": "I am a Security Engineer currently pursuing Masters in Security Informatics from Johns Hopkins University. I am technology enthusiast with interest in Application Security, Pentesting, Reverse Engineering and using Machine Learning for Security.",
+		"paragraph_two": "I have a good foundation in the Cybersecurity Frameworks namely, NIST, MITRE, OWASP, and have worked with tools like Burpsuite, Owasp ZAP, Wireshark, Metasploit, Ghidra, NMap, OpenSSL, Lynis, Microsoft Threat Modeling Tool, Valgrind, etc and have implemented proof-of-exploitations for games like Duke Nukem.",
+		"paragraph_three": "I have Bachelor in Technology from IIITS, India in Computer Science and Engineering and am apt in Secure Software Development Life Cycle (SDLC) integration and Cloud Computing. I am an active CTF participant and an Kaggle Contributor. I am apt in competitive programming in C/C++, and Python languages.",
+		"github_card": {
+			"bio": "Security Engineer with interest in Application Security and experience in Secure Software Development."
+		},
+		"alt_dev_img": "Chinmay Lohani Developer"
+	},
+	"portifolioPage": {
+		"title": "PROJECTS",
+		"labelFilter": "ALL",
+		"createdLabel": "Created at",
+		"projects": {
+			"id_1": {
+				"title": "ASSURING SAFE NAVIGATION AND NETWORK OPERATIONS OF AUTONOMOUS SHIPS",
+				"description": "Published at IEEE CCWC 2024, Implemented ML Security Monitor for Battleship Infrastructure. Designed a machine learning model to monitor anomalies and cyber intrusions on critical battleship infrastructure simulated within an industrial control system (ICS) network. Performed penetration tests encompassing STRIDE threat vectors to validate detection capabilities across power systems and weapon controls. The intelligent monitor attained 98.5% accuracy in identifying the source and vector of cyber attack patterns, safeguarding essential operations. This research combines my expertise in maritime critical infrastructure security, ICS networks, machine learning detection models, and ethical penetration testing methodologies.",
+				"url": "https://github.com/KR4K3N-CIP",
+				"filter": ["PUBLISHED", "SECURITY", "ML"],
+				"createdAt": "November 30, 2023"
+			},
+			"id_2": {
+				"title": "DEVRADAR",
+				"description": "Application resulting from the week Omnistack #10 by Rocketseat. The application aims to connect developers close to your current location and working with the same technologies.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_3": {
+				"title": "BE THE HERO",
+				"description": "Application resulting from Rocketseat's Omnistack #11 week. The application is a way to connect people to NGOs that need some kind of help.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_4": {
+				"title": "INTEGRA API WRAPPER",
+				"description": "Node.js server for using the Inthegra API provided by STRANS from Teresina - PI.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_5": {
+				"title": "LETMEASK",
+				"description": "Application resulting from Rocketseat's Next Level Week #06. The application provides an environment where the user can log in using his Google account and create rooms on subjects of interest for other users to create questions.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_6": {
+				"title": "PLANTMANAGER",
+				"description": "Application resulting from Rocketseat's Next Level Week #05. The application provides an irrigation scheduler for your plants, giving tips on each species, as well as the best irrigation schedules. The app displays a push notification whenever it's time to water your plant.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_7": {
+				"title": "NPS SURVEY SYSTEM",
+				"description": "Application resulting from Rocketseat's Next Level Week #04. The application allows calculating the company's NPS (Net Promoter Score) through satisfaction surveys sent to users by email.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_8": {
+				"title": "FASTTRACK API",
+				"description": "Backend of a Node.js server that provides a REST API that allows sharing the smartphone's geolocation to a cloud database maintained by MongoDB.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_9": {
+				"title": "INTHEGRE-SE APP",
+				"description": "Application that monitors the public bus fleet in the city of Teresina - PI, and displays on a map the current location of each bus in activity at the moment, with intervals of 30 seconds between each position update.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_10": {
+				"title": "RADAR POSITION CRAWLER",
+				"description": "Study of the BeautifulSoup library that, used with the Python programming language, makes it possible to collect data from websites. This algorithm searches the website of Teresina City Hall - PI and provides the download link of the current position of speed cameras in the city.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_11": {
+				"title": "PORTFOLIO PAGE",
+				"description": "Personal portfolio page, built using React.js, Next.js, Styled Components and hosted on the Vercel platform.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_12": {
+				"title": "LOGISTICS INFORMATION AGGREGATE",
+				"description": "System to aggregate the company's internal logistic information.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_13": {
+				"title": "LOGISTICS INFORMATION AGGREGATOR API",
+				"description": "API written in Javascript/Node.js and hosted on an EC2 server on AWS to provide the company's internal logistical information.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_14": {
+				"title": "BYTEBANK",
+				"description": "App resulting from Alura's Flutter track. Using Flutter to generate the cross-platform application, this application serves to register account numbers and their respective values ​​to be recorded in dynamic states for display in the app.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_15": {
+				"title": "WEB CALCULATOR",
+				"description": "Web application of a calculator, written with typescript and using the Svelte Framework/Compiler.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_16": {
+				"title": "LAYOUT MATERIAL DESIGN",
+				"description": "Boilerplate structure for an application using the Material UI frontend framework.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_17": {
+				"title": "RN MAPS",
+				"description": "Small test application that uses the React Native framework to build a map view using the Google Maps SDK.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_18": {
+				"title": "RN E-COMMERCE UI",
+				"description": "UI that mimics some existing components, pages and dynamics in native mobile apps for e-commerce.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			},
+			"id_19": {
+				"title": "FIREBASE API BOILERPLATE",
+				"description": "Boilerplate structure that integrates a CRUD in the Firestore database using firebase API.",
+				"url": "https://",
+				"filter": [],
+				"createdAt": ""
+			}
+		}
+	},
+	"publicationPage": {
+		"title": "PUBLICATIONS",
+		"labelFilter": "PUBLISHED"
+	},
+	"experiencePage": {
+		"title": "EXPERIENCE",
+		"timeline": {
+			"labelPosition": "Position",
+			"labelTitle": "Title",
+			"labelCompany": "Company",
+			"labelCategory": "Category",
+			"labelInstitution": "Institution",
+			"labelProfessionalCourse": "Professional course",
+			"labelBachelorDegree": "Bachelor degree",
+			"labelExtensionCourse": "Extension course"
+		}
+	},
+	"footer": {
+		"labelNavigation": {
+			"title": "NAVIGATION",
+			"labelHome": "Home",
+			"labelAboutMe": "About me",
+			"labelPortifolio": "Projects",
+			"labelExperience": "Experience",
+			"labelAchievements": "Achievements"
+		},
+		"labelHost": {
+			"title": "WEBSITE HOSTING"
+		},
+		"labelSourceCode": {
+			"title": "CONTRIBUTIONS"
+		},
+		"labelTechs": {
+			"title": "CODING PROFILE"
+		},
+		"labelStats": {
+			"title": "STATISTICS",
+			"stats": "Dashboard"
+		},
+		"labelBuildVersion": "Build"
+	}
+}
