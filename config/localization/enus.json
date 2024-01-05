@@ -30,7 +30,7 @@
 		"createdLabel": "Created at",
 		"projects": {
 			"id_1": {
-				"title": "ASSURING SAFE NAVIGATION AND NETWORK OPERATIONS OF AUTONOMOUS SHIPS",
+				"title": "ASSURING SAFE NAVIGATION AND \n NETWORK OPERATIONS OF AUTONOMOUS SHIPS",
 				"description": "Published at IEEE CCWC 2024, Implemented ML Security Monitor for Battleship Infrastructure. Designed a machine learning model to monitor anomalies and cyber intrusions on critical battleship infrastructure simulated within an industrial control system (ICS) network. Performed penetration tests encompassing STRIDE threat vectors to validate detection capabilities across power systems and weapon controls. The intelligent monitor attained 98.5% accuracy in identifying the source and vector of cyber attack patterns, safeguarding essential operations. This research combines my expertise in maritime critical infrastructure security, ICS networks, machine learning detection models, and ethical penetration testing methodologies.",
 				"url": "https://github.com/KR4K3N-CIP",
 				"filter": ["PUBLISHED", "SECURITY", "ML"],
@@ -41,11 +41,11 @@
 				"description": "Performed security testing of OpenEMR, identifying vulnerabilities like SQLi, DoS, buffer overflows and XSS. Used tools including Burp Suite, OWASP ZAP, SQLMAP, and Wireshark to detect issues. Documented proof of exploitation along with remediation recommendations.",
 				"url": "https://github.com/Sad-0w/SPC_final_project",
 				"filter": ["SECURITY"],
-				"createdAt": ""
+				"createdAt": "October 14, 2023"
 			},
 			"id_3": {
-				"title": "BE THE HERO",
-				"description": "Application resulting from Rocketseat's Omnistack #11 week. The application is a way to connect people to NGOs that need some kind of help.",
+				"title": "Angband",
+				"description": "Developed proof-of-concept exploit achieving root access by reverse engineering Angband game binary to locate format string vulnerability. Used IDA Pro and GDB to analyze vulnerability and craft input to exploit stack overflow, redirect code execution flow, and open remote shell.",
 				"url": "https://",
 				"filter": [],
 				"createdAt": ""
