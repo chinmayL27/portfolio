@@ -37,10 +37,10 @@
 				"createdAt": "November 30, 2023"
 			},
 			"id_2": {
-				"title": "DEVRADAR",
-				"description": "Application resulting from the week Omnistack #10 by Rocketseat. The application aims to connect developers close to your current location and working with the same technologies.",
-				"url": "https://",
-				"filter": [],
+				"title": "Penetration Testing and Vulnerability Assessment of OpenEMR ",
+				"description": "Performed security testing of OpenEMR, identifying vulnerabilities like SQLi, DoS, buffer overflows and XSS. Used tools including Burp Suite, OWASP ZAP, SQLMAP, and Wireshark to detect issues. Documented proof of exploitation along with remediation recommendations.",
+				"url": "https://github.com/Sad-0w/SPC_final_project",
+				"filter": ["SECURITY"],
 				"createdAt": ""
 			},
 			"id_3": {

@@ -106,9 +106,7 @@ export default function ContactMeEmail() {
 		<ContactMeContainer>
 			<ContainerForm>
 				<WrapperInput>
-					<label for="nome" htmlFor="name">
-						NOME
-					</label>
+					<label htmlFor="name">NOME</label>
 					<input type="text" placeholder="example name" id="name" />
 				</WrapperInput>
 
