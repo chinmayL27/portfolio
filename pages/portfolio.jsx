@@ -31,6 +31,7 @@ import { Live } from "@styled-icons/fluentui-system-filled/Live";
 import Tooltip from "@/components/Tooltip";
 import { LogoPython } from "styled-icons/ionicons-solid";
 import { Security } from "styled-icons/material";
+import { Kaggle } from "styled-icons/simple-icons";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -280,7 +281,7 @@ export default function Portifolio() {
 			// 		<Security />
 			// 	</Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_1.url,
+			sourceCodeLink: language.portifolioPage.projects.id_1.url || null,
 			typeProject: language.portifolioPage.projects.id_1.filter,
 			created_at: language.portifolioPage.projects.id_1.createdAt,
 		},
@@ -309,7 +310,7 @@ export default function Portifolio() {
 			// 	<Mongodb />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_2.url,
+			sourceCodeLink: language.portifolioPage.projects.id_2.url || null,
 			typeProject: language.portifolioPage.projects.id_2.filter,
 			created_at: language.portifolioPage.projects.id_2.createdAt,
 		},
@@ -344,7 +345,7 @@ export default function Portifolio() {
 			// 	<Sqlite />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_3.url,
+			sourceCodeLink: language.portifolioPage.projects.id_3.url || null,
 			typeProject: language.portifolioPage.projects.id_3.filter,
 			created_at: language.portifolioPage.projects.id_3.createdAt,
 		},
@@ -361,7 +362,7 @@ export default function Portifolio() {
 			// 	<Javascript />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_4.url,
+			sourceCodeLink: language.portifolioPage.projects.id_4.url || null,
 			typeProject: language.portifolioPage.projects.id_4.filter,
 			created_at: language.portifolioPage.projects.id_4.createdAt,
 		},
@@ -387,7 +388,7 @@ export default function Portifolio() {
 			// 	<Firebase />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_5.url,
+			sourceCodeLink: language.portifolioPage.projects.id_5.url || null,
 			typeProject: language.portifolioPage.projects.id_5.filter,
 			created_at: language.portifolioPage.projects.id_5.createdAt,
 		},
@@ -407,7 +408,7 @@ export default function Portifolio() {
 			// 	<Sqlite />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_6.url,
+			sourceCodeLink: language.portifolioPage.projects.id_6.url || null,
 			typeProject: language.portifolioPage.projects.id_6.filter,
 			created_at: language.portifolioPage.projects.id_6.createdAt,
 		},
@@ -430,7 +431,7 @@ export default function Portifolio() {
 			// 	<Jest />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_7.url,
+			sourceCodeLink: language.portifolioPage.projects.id_7.url || null,
 			typeProject: language.portifolioPage.projects.id_7.filter,
 			created_at: language.portifolioPage.projects.id_7.createdAt,
 		},
@@ -453,7 +454,7 @@ export default function Portifolio() {
 			// 	<Amazonaws />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_8.url,
+			sourceCodeLink: language.portifolioPage.projects.id_8.url || null,
 			typeProject: language.portifolioPage.projects.id_8.filter,
 			created_at: language.portifolioPage.projects.id_8.createdAt,
 		},
@@ -473,7 +474,7 @@ export default function Portifolio() {
 			// 	<Javascript />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_9.url,
+			sourceCodeLink: language.portifolioPage.projects.id_9.url || null,
 			typeProject: language.portifolioPage.projects.id_9.filter,
 			created_at: language.portifolioPage.projects.id_9.createdAt,
 		},
@@ -487,9 +488,51 @@ export default function Portifolio() {
 			// 	<Python />
 			// 	// </Tooltip>,
 			// ],
-			sourceCodeLink: language.portifolioPage.projects.id_10.url,
+			sourceCodeLink: language.portifolioPage.projects.id_10.url || null,
 			typeProject: language.portifolioPage.projects.id_10.filter,
 			created_at: language.portifolioPage.projects.id_10.createdAt,
+		},
+		{
+			id: 11,
+			title: language.portifolioPage.projects.id_11.title,
+			description: language.portifolioPage.projects.id_11.description,
+			liveDemoUrl: null,
+			// techs: [
+			// <Tooltip toolTipText="Python">
+			// 	<Python />
+			// 	// </Tooltip>,
+			// ],
+			sourceCodeLink: language.portifolioPage.projects.id_11.url || null,
+			typeProject: language.portifolioPage.projects.id_11.filter,
+			created_at: language.portifolioPage.projects.id_11.createdAt,
+		},
+		{
+			id: 12,
+			title: language.portifolioPage.projects.id_12.title,
+			description: language.portifolioPage.projects.id_12.description,
+			liveDemoUrl: null,
+			// techs: [
+			// <Tooltip toolTipText="Python">
+			// 	<Python />
+			// 	// </Tooltip>,
+			// ],
+			sourceCodeLink: language.portifolioPage.projects.id_12.url || null,
+			typeProject: language.portifolioPage.projects.id_12.filter,
+			created_at: language.portifolioPage.projects.id_12.createdAt,
+		},
+		{
+			id: 13,
+			title: language.portifolioPage.projects.id_13.title,
+			description: language.portifolioPage.projects.id_13.description,
+			liveDemoUrl: null,
+			// techs: [
+			// <Tooltip toolTipText="Python">
+			// 	<Python />
+			// 	// </Tooltip>,
+			// ],
+			sourceCodeLink: language.portifolioPage.projects.id_13.url || null,
+			typeProject: language.portifolioPage.projects.id_13.filter,
+			created_at: language.portifolioPage.projects.id_13.createdAt,
 		},
 	];
 
@@ -581,9 +624,11 @@ export default function Portifolio() {
 										</a>
 									)}
 
-									<a href={project.sourceCodeLink} target="_blank" rel="noreferrer">
-										<GithubOutline />
-									</a>
+									{project.sourceCodeLink !== null && (
+										<a href={project.sourceCodeLink} target="_blank" rel="noreferrer">
+											{project.sourceCodeLink.startsWith("https://www.kaggle.com/") ? <Kaggle /> : <GithubOutline />}
+										</a>
+									)}
 								</WrapperButtons>
 							</WrapperTechStack>
 

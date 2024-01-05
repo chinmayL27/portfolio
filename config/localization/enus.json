@@ -30,8 +30,8 @@
 		"createdLabel": "Created at",
 		"projects": {
 			"id_1": {
-				"title": "ASSURING SAFE NAVIGATION AND \n NETWORK OPERATIONS OF AUTONOMOUS SHIPS",
-				"description": "Published at IEEE CCWC 2024, Implemented ML Security Monitor for Battleship Infrastructure. Designed a machine learning model to monitor anomalies and cyber intrusions on critical battleship infrastructure simulated within an industrial control system (ICS) network. Performed penetration tests encompassing STRIDE threat vectors to validate detection capabilities across power systems and weapon controls. The intelligent monitor attained 98.5% accuracy in identifying the source and vector of cyber attack patterns, safeguarding essential operations. This research combines my expertise in maritime critical infrastructure security, ICS networks, machine learning detection models, and ethical penetration testing methodologies.",
+				"title": "Assuring Safe Navigation of Autonomous Ships",
+				"description": "Presented at IEEE CCWC 2024, I implemented an ML Security Monitor for battleship infrastructure. The model achieved 98.5% accuracy in detecting cyber threats in ICS networks, validating its effectiveness through penetration tests on power systems and weapon controls.",
 				"url": "https://github.com/KR4K3N-CIP",
 				"filter": ["PUBLISHED", "SECURITY", "ML"],
 				"createdAt": "November 30, 2023"
@@ -46,121 +46,74 @@
 			"id_3": {
 				"title": "Angband",
 				"description": "Developed proof-of-concept exploit achieving root access by reverse engineering Angband game binary to locate format string vulnerability. Used IDA Pro and GDB to analyze vulnerability and craft input to exploit stack overflow, redirect code execution flow, and open remote shell.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"filter": ["SECURITY"],
+				"createdAt": "November 14, 2023"
 			},
 			"id_4": {
-				"title": "INTEGRA API WRAPPER",
-				"description": "Node.js server for using the Inthegra API provided by STRANS from Teresina - PI.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "Duke Nukem II",
+				"description": "Exploited buffer overflow in Duke Nukem game binary to achieve remote root shell access. Reverse engineered binary using Ghidra to identify vulnerable function and crafted malicious input. Developed proof-of-concept demonstrating arbitrary code execution via shellcode injection and redirecting control flow using buffer overflow technique.",
+				"filter": ["SECURITY"],
+				"createdAt": "September 20, 2023"
 			},
 			"id_5": {
-				"title": "LETMEASK",
-				"description": "Application resulting from Rocketseat's Next Level Week #06. The application provides an environment where the user can log in using his Google account and create rooms on subjects of interest for other users to create questions.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "Open-Source Web Server Security Assessment",
+				"description": "Conducted threat modeling on an open-source web server using SciTool Understand and Microsoft Threat Modeling Tool. Produced an executive summary detailing risks and employed Ghidra and Veles for reverse engineering, bolstering the system's security posture.",
+				"filter": ["SECURITY"],
+				"createdAt": "August 30, 2023"
 			},
 			"id_6": {
-				"title": "PLANTMANAGER",
-				"description": "Application resulting from Rocketseat's Next Level Week #05. The application provides an irrigation scheduler for your plants, giving tips on each species, as well as the best irrigation schedules. The app displays a push notification whenever it's time to water your plant.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "Intrusion Detection System for IoT",
+				"description": "Simulated DDoS attack in IoT devices, like flooding on CoAP network using Cooja simulator, leveraged the simulation data to train an ML model for detection of unusual traffic.",
+				"filter": ["SECURITY", "ML"],
+				"createdAt": "March 24, 2023"
 			},
 			"id_7": {
-				"title": "NPS SURVEY SYSTEM",
+				"title": "Deep Learning based Disease Classifier for X-Rays",
 				"description": "Application resulting from Rocketseat's Next Level Week #04. The application allows calculating the company's NPS (Net Promoter Score) through satisfaction surveys sent to users by email.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"url": "https://www.kaggle.com/code/chinmay2711/12-2023-image",
+				"filter": ["ML"],
+				"createdAt": "December 10, 2023"
 			},
 			"id_8": {
-				"title": "FASTTRACK API",
-				"description": "Backend of a Node.js server that provides a REST API that allows sharing the smartphone's geolocation to a cloud database maintained by MongoDB.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "Blockchain based e-voting System",
+				"description": "Designed and built a tamper-proof, decentralized e-voting system on Ethereum blockchain through commit-reveal mechanisms. Hardened system security by building Solidity smart contracts with audited OpenZeppelin libraries, optimized consensus algorithms, IPFS integration and MetaMask identity management resulting in enhanced transparency, scalability, and reduced gas costs by 8%.",
+				"url": "https://github.com/chinmayL27/eVoting",
+				"filter": ["SECURITY", "WEB"],
+				"createdAt": "December 1, 2022"
 			},
 			"id_9": {
-				"title": "INTHEGRE-SE APP",
-				"description": "Application that monitors the public bus fleet in the city of Teresina - PI, and displays on a map the current location of each bus in activity at the moment, with intervals of 30 seconds between each position update.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "Card Fraud Detection",
+				"description": "Investigated anonymized card data, identified feature relationships through visualizations, and engineered ensemble models to detect credit card fraud with 99.9% accuracy, reducing false positives by 20%.",
+				"url": "https://www.kaggle.com/code/ashar7777/card-fraud",
+				"filter": ["ML"],
+				"createdAt": "October 24, 2022"
 			},
 			"id_10": {
-				"title": "RADAR POSITION CRAWLER",
-				"description": "Study of the BeautifulSoup library that, used with the Python programming language, makes it possible to collect data from websites. This algorithm searches the website of Teresina City Hall - PI and provides the download link of the current position of speed cameras in the city.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "OpenZepplin Supply chain",
+				"description": "Developed blockchain-based supply chain system using Solidity, OpenZeppelin, Truffle, and Web3, integrating web interfaces for server-chain communication. Enhanced efficiency by 10% and improved security.",
+				"filter": ["WEB"],
+				"createdAt": "August 16, 2022"
 			},
 			"id_11": {
-				"title": "PORTFOLIO PAGE",
-				"description": "Personal portfolio page, built using React.js, Next.js, Styled Components and hosted on the Vercel platform.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "News-Aggregator",
+				"description": " Developed a MERN-based web application for integrating news from assorted sources of varying genres by applying several information retrieval techniques, resulting in 30% reduction in similar sentences by applying cosine-based similarity detection.",
+				"url": "https://github.com/chinmayL27/News-Aggregator",
+				"filter": ["WEB"],
+				"createdAt": "February 20, 2022"
 			},
 			"id_12": {
-				"title": "LOGISTICS INFORMATION AGGREGATE",
-				"description": "System to aggregate the company's internal logistic information.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "IRS Library Manager",
+				"description": "Developed an Information-Retrieval System for a large database of books with user-friendly interface using Flask. This gives an easy and extended version to library-management systems built for large scale institutions.",
+				"url": "https://github.com/chinmayL27/IR-System_Book-Search",
+				"filter": ["WEB"],
+				"createdAt": "November 5, 2021"
 			},
 			"id_13": {
-				"title": "LOGISTICS INFORMATION AGGREGATOR API",
-				"description": "API written in Javascript/Node.js and hosted on an EC2 server on AWS to provide the company's internal logistical information.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
-			},
-			"id_14": {
-				"title": "BYTEBANK",
-				"description": "App resulting from Alura's Flutter track. Using Flutter to generate the cross-platform application, this application serves to register account numbers and their respective values ​​to be recorded in dynamic states for display in the app.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
-			},
-			"id_15": {
-				"title": "WEB CALCULATOR",
-				"description": "Web application of a calculator, written with typescript and using the Svelte Framework/Compiler.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
-			},
-			"id_16": {
-				"title": "LAYOUT MATERIAL DESIGN",
-				"description": "Boilerplate structure for an application using the Material UI frontend framework.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
-			},
-			"id_17": {
-				"title": "RN MAPS",
-				"description": "Small test application that uses the React Native framework to build a map view using the Google Maps SDK.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
-			},
-			"id_18": {
-				"title": "RN E-COMMERCE UI",
-				"description": "UI that mimics some existing components, pages and dynamics in native mobile apps for e-commerce.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
-			},
-			"id_19": {
-				"title": "FIREBASE API BOILERPLATE",
-				"description": "Boilerplate structure that integrates a CRUD in the Firestore database using firebase API.",
-				"url": "https://",
-				"filter": [],
-				"createdAt": ""
+				"title": "GATEWAY application for societies",
+				"description": "Developed and presented a management system for apartments in the area, facilitating easy communication, complaint and announcement forums, and other utilities to provide a smoother management experience for residents of a community.",
+				"url": "https://github.com/chinmayL27/GATEWAY",
+				"filter": ["WEB"],
+				"createdAt": "July 12, 2021"
 			}
 		}
 	},
