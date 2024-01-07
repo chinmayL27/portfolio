@@ -30,7 +30,7 @@
 		"createdLabel": "Created at",
 		"projects": {
 			"id_1": {
-				"title": "Assuring Safe Navigation and Network \n Operations of Autonomous Ships",
+				"title": "Assuring Safe Navigation & Network \n Operations of Autonomous Ships",
 				"description": "Presented at IEEE CCWC 2024, I implemented an ML Security Monitor for battleship infrastructure. The model achieved 98.5% accuracy in detecting cyber threats in ICS networks, validating its effectiveness through penetration tests on power systems and weapon controls.",
 				"url": "https://github.com/KR4K3N-CIP",
 				"filter": ["PUBLISHED", "SECURITY", "ML"],
