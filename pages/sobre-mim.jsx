@@ -13,7 +13,7 @@ import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
 import CarrouselTechs from "@/components/CarrouselTechs";
 
 //PDFs
-// import curriculoPTBR from "../public/pdf/curriculo-ptbr.pdf";
+import curriculoPTBR from "../public/pdf/tempp.pdf";
 
 const WrapperAboutMe = styled.div`
 	display: flex;
@@ -302,10 +302,7 @@ export default function SobreMim(props) {
 							<p>{language.aboutMePage.paragraph_three}</p>
 							<div className="tech-and-cv">
 								<SocialNetworkRowStack />
-								<ButtonCV
-									href="https://livejohnshopkins-my.sharepoint.com/:w:/r/personal/clohani1_jh_edu/Documents/chinmay_lohani_MS_-_security_copy.docx?d=wfc9030078b86492c8cdf513773b13d41&csf=1&web=1&e=cinWl4"
-									target="_blank"
-									data-splitbee-event="Download CV">
+								<ButtonCV href={curriculoPTBR} target="_blank" data-splitbee-event="Download CV">
 									Download CV
 								</ButtonCV>
 							</div>
