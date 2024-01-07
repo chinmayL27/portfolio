@@ -5,7 +5,7 @@ import { SettingsContext } from "@/context/SettingsContext";
 
 //Third's librarys
 import styled from "styled-components";
-// import Image from "next/image";
+import Image from "next/image";
 import ScrollAnimation from "react-animate-on-scroll";
 
 //Custom components
@@ -286,7 +286,9 @@ export default function SobreMim(props) {
 						<ScrollAnimation animateIn="fadeIn" animateOnce delay={200}>
 							<GithubStatsCard>
 								<div className="background" />
-								<div className="img">{/* <Image src="/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" /> */}</div>
+								<div className="img">
+									<Image src="/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
+								</div>
 								<div className="content">
 									<h3>Chinmay Lohani</h3>
 									<p>{language.aboutMePage.github_card.bio}</p>
