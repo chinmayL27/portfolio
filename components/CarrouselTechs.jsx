@@ -12,23 +12,23 @@ import { Sqlite } from "@styled-icons/simple-icons/Sqlite";
 import { Javascript } from "@styled-icons/boxicons-logos/Javascript";
 import { Java } from "@styled-icons/fa-brands/Java";
 import { ReactLogo } from "@styled-icons/boxicons-logos/ReactLogo";
-import { Nextdotjs } from "@styled-icons/simple-icons/Nextdotjs";
+import { Cplusplus } from "@styled-icons/simple-icons/Cplusplus";
 import { Python } from "@styled-icons/boxicons-logos/Python";
 import { Flutter } from "@styled-icons/boxicons-logos/Flutter";
 import { Django } from "@styled-icons/boxicons-logos/Django";
 import { Nodejs } from "@styled-icons/boxicons-logos/Nodejs";
-import { LogoVercel } from "@styled-icons/ionicons-solid/LogoVercel";
+import { Wireshark } from "@styled-icons/simple-icons/Wireshark";
 import { Netlify } from "@styled-icons/simple-icons/Netlify";
 import { Materialui } from "@styled-icons/simple-icons/Materialui";
 import { Styledcomponents } from "@styled-icons/simple-icons/Styledcomponents";
 import { Css3 } from "@styled-icons/boxicons-logos/Css3";
 import { Html5 } from "@styled-icons/boxicons-logos/Html5";
-import { Amazons3 } from "@styled-icons/simple-icons/Amazons3";
+import { Owasp } from "@styled-icons/simple-icons/Owasp";
 import { Git } from "@styled-icons/boxicons-logos/Git";
-import { LogoBitbucket } from "@styled-icons/ionicons-solid/LogoBitbucket";
+import { Security } from "@styled-icons/material/Security";
 import { GithubOutline } from "@styled-icons/evaicons-outline/GithubOutline";
 import { Api } from "@styled-icons/material-rounded/Api";
-import { Oracle } from "@styled-icons/simple-icons/Oracle";
+import { Vmware } from "@styled-icons/simple-icons/Vmware";
 import { Bootstrap } from "@styled-icons/boxicons-logos/Bootstrap";
 import { TailwindCss } from "@styled-icons/boxicons-logos/TailwindCss";
 import { Mysql } from "@styled-icons/simple-icons/Mysql";
@@ -38,11 +38,11 @@ import { Android } from "@styled-icons/boxicons-logos/Android";
 import { Ios } from "@styled-icons/simple-icons/Ios";
 import { Typescript } from "@styled-icons/simple-icons/Typescript";
 import { Sass } from "@styled-icons/fa-brands/Sass";
-import { Jquery } from "@styled-icons/boxicons-logos/Jquery";
+import { Database } from "@styled-icons/fa-solid/Database";
 import { Figma } from "@styled-icons/boxicons-logos/Figma";
-import { Adobephotoshop } from "@styled-icons/simple-icons/Adobephotoshop";
+import { Gnubash } from "@styled-icons/simple-icons/Gnubash";
 import { Visualstudiocode } from "@styled-icons/simple-icons/Visualstudiocode";
-import { Trello } from "@styled-icons/boxicons-logos/Trello";
+import { Kalilinux } from "@styled-icons/simple-icons/Kalilinux";
 
 const Carrousel = styled.div`
 	display: flex;
@@ -92,19 +92,19 @@ export default function CarrouselTechs(props) {
 		<Marquee autoFill gradient loop={0} gradientColor={theme.colors.backgroundPageRgb} direction={direction}>
 			<Carrousel colorIcon={colorIcon}>
 				<div className="slide">
-					<Adobephotoshop />
+					<Gnubash />
 				</div>
 				<div className="slide">
-					<Amazons3 />
+					<Owasp />
 				</div>
 				<div className="slide">
 					<Visualstudiocode />
 				</div>
 				<div className="slide">
-					<Trello />
+					<Kalilinux />
 				</div>
 				<div className="slide">
-					<Oracle />
+					<Vmware />
 				</div>
 				<div className="slide">
 					<Amazonaws />
@@ -134,7 +134,7 @@ export default function CarrouselTechs(props) {
 					<ReactLogo />
 				</div>
 				<div className="slide">
-					<Nextdotjs />
+					<Cplusplus />
 				</div>
 				<div className="slide">
 					<Python />
@@ -149,7 +149,7 @@ export default function CarrouselTechs(props) {
 					<Nodejs />
 				</div>
 				<div className="slide">
-					<LogoVercel />
+					<Wireshark />
 				</div>
 				<div className="slide">
 					<Netlify />
@@ -170,7 +170,7 @@ export default function CarrouselTechs(props) {
 					<Git />
 				</div>
 				<div className="slide">
-					<LogoBitbucket />
+					<Security />
 				</div>
 				<div className="slide">
 					<GithubOutline />
@@ -206,7 +206,7 @@ export default function CarrouselTechs(props) {
 					<Sass />
 				</div>
 				<div className="slide">
-					<Jquery />
+					<Database />
 				</div>
 				<div className="slide">
 					<Figma />

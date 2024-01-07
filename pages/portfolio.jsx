@@ -605,7 +605,11 @@ export default function Portifolio() {
 								))}
 							</WrapperTextChip>
 
-							<TitleSpan>{project.title}</TitleSpan>
+							<TitleSpan>
+								{project.title.split("\n").map((line) => {
+									return [line, <br />];
+								})}
+							</TitleSpan>
 
 							<div className="title-body">
 								<BodyText>{project.description}</BodyText>

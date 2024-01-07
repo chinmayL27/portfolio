@@ -16,7 +16,7 @@
 	},
 	"aboutMePage": {
 		"title": "ABOUT ME",
-		"paragraph_one": "I am a Security Engineer currently pursuing Masters in Security Informatics from Johns Hopkins University. I am technology enthusiast with interest in Application Security, Pentesting, Reverse Engineering and using Machine Learning for Security.",
+		"paragraph_one": "I am a Security Engineer currently pursuing Masters in Security Informatics from Johns Hopkins University. I am a technology enthusiast with interest in Application Security, Pentesting, Reverse Engineering and using Machine Learning for Security.",
 		"paragraph_two": "I have a good foundation in the Cybersecurity Frameworks namely, NIST, MITRE, OWASP, and have worked with tools like Burpsuite, Owasp ZAP, Wireshark, Metasploit, Ghidra, NMap, OpenSSL, Lynis, Microsoft Threat Modeling Tool, Valgrind, etc and have implemented proof-of-exploitations for games like Duke Nukem.",
 		"paragraph_three": "I have Bachelor in Technology from IIITS, India in Computer Science and Engineering and am apt in Secure Software Development Life Cycle (SDLC) integration and Cloud Computing. I am an active CTF participant and a Kaggle Contributor. I am apt in competitive programming in C/C++, and Python languages.",
 		"github_card": {
@@ -30,14 +30,14 @@
 		"createdLabel": "Created at",
 		"projects": {
 			"id_1": {
-				"title": "Assuring Safe Navigation of Autonomous Ships",
+				"title": "Assuring Safe Navigation and Network \n Operations of Autonomous Ships",
 				"description": "Presented at IEEE CCWC 2024, I implemented an ML Security Monitor for battleship infrastructure. The model achieved 98.5% accuracy in detecting cyber threats in ICS networks, validating its effectiveness through penetration tests on power systems and weapon controls.",
 				"url": "https://github.com/KR4K3N-CIP",
 				"filter": ["PUBLISHED", "SECURITY", "ML"],
 				"createdAt": "November 30, 2023"
 			},
 			"id_2": {
-				"title": "Penetration Testing and Vulnerability Assessment of OpenEMR ",
+				"title": "Penetration Testing and Vulnerability Assessment \n of OpenEMR ",
 				"description": "Performed security testing of OpenEMR, identifying vulnerabilities like SQLi, DoS, buffer overflows and XSS. Used tools including Burp Suite, OWASP ZAP, SQLMAP, and Wireshark to detect issues. Documented proof of exploitation along with remediation recommendations.",
 				"url": "https://github.com/Sad-0w/SPC_final_project",
 				"filter": ["SECURITY"],
