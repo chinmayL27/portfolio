@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useRef, useState, useContext } from "react";
 import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -260,6 +260,7 @@ const SectionPortifolio = styled.section`
 	width: 100%;
 	min-height: 100vh;
 	padding-top: 60px;
+	overflow: auto;
 `;
 
 export default function Portifolio() {
@@ -536,14 +537,27 @@ export default function Portifolio() {
 		},
 	];
 
+	const projectsRef = useRef(null);
+
 	function handleFilter(id) {
 		setStack(id);
+		window.scrollTo({
+			top: projectsRef.current.offsetTop - 450,
+			behavior: "smooth",
+		});
+		setTimeout(() => {
+			window.scrollTo({
+				top: projectsRef.current.offsetTop,
+				behavior: "smooth",
+			});
+		}, 400);
+		// projectsRef.current.scrollIntoView();
 	}
 
 	const array_projects = stack == "TODOS" ? projects : projects.filter((item) => item.typeProject.includes(stack));
 
 	return (
-		<SectionPortifolio id="section-portifolio">
+		<SectionPortifolio id="section-portifolio" ref={projectsRef}>
 			<ContainerTitleSection>
 				<TitleSection>{language.portifolioPage.title}</TitleSection>
 			</ContainerTitleSection>
@@ -590,6 +604,14 @@ export default function Portifolio() {
 					}}
 					active={stack.includes("WEB") ? true : false}>
 					WEB
+				</Chip>
+				<Chip
+					id="BLOCKCHAIN"
+					onClick={(event) => {
+						handleFilter(event.target.id);
+					}}
+					active={stack.includes("BLOCKCHAIN") ? true : false}>
+					BLOCKCHAIN
 				</Chip>
 			</ChipTechOptions>
 

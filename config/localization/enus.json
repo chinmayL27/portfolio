@@ -78,7 +78,7 @@
 				"title": "Blockchain based e-voting System",
 				"description": "Designed and built a tamper-proof, decentralized e-voting system on Ethereum blockchain through commit-reveal mechanisms. Hardened system security by building Solidity smart contracts with audited OpenZeppelin libraries, optimized consensus algorithms, IPFS integration and MetaMask identity management resulting in enhanced transparency, scalability, and reduced gas costs by 8%.",
 				"url": "https://github.com/chinmayL27/eVoting",
-				"filter": ["SECURITY", "WEB"],
+				"filter": ["SECURITY", "WEB", "BLOCKCHAIN"],
 				"createdAt": "December 1, 2022"
 			},
 			"id_9": {
@@ -91,7 +91,7 @@
 			"id_10": {
 				"title": "OpenZepplin Supply chain",
 				"description": "Developed blockchain-based supply chain system using Solidity, OpenZeppelin, Truffle, and Web3, integrating web interfaces for server-chain communication. Enhanced efficiency by 10% and improved security.",
-				"filter": ["WEB"],
+				"filter": ["WEB", "BLOCKCHAIN"],
 				"createdAt": "August 16, 2022"
 			},
 			"id_11": {
