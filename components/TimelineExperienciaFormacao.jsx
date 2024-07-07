@@ -80,7 +80,23 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>Aug 2023 - Dec 2023</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}> May 2024 - Aug 2024</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>Sigma Computing</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>Security Engineer Intern</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+			
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>Aug 2023 - Aug 2024</h3>
 					<BoldText>
 						{language.experiencePage.timeline.labelCompany}: <span>Johns Hopkins University</span>
 					</BoldText>
