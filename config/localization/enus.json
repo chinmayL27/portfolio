@@ -11,14 +11,14 @@
 		"apresentationText": "Hello, I'm ",
 		"firstTypeText": "Security Engineer you need...",
 		"secondTypeText": "Chinmay Lohani",
-		"resumeText": "Security Engineer professional. I work on Software and Application Security, performing pentesting, reverse engineering, and ensure secure code practices.",
+		"resumeText": "Security Engineer professional. I work on Software and Application Security, performing pen-testing, reverse engineering, and ensuring secure code practices.",
 		"buttonText": "More about Me"
 	},
 	"aboutMePage": {
 		"title": "ABOUT ME",
-		"paragraph_one": "I am a Security Engineer currently pursuing Masters in Security Informatics from Johns Hopkins University. I am a technology enthusiast with interest in Application Security, Pentesting, Reverse Engineering and using Machine Learning for Security.",
+		"paragraph_one": "I am a Security Engineer currently pursuing a Master's in Security Informatics from Johns Hopkins University. I am a technology enthusiast with an interest in Application Security, Pentesting, Reverse Engineering and using Machine Learning for Security.",
 		"paragraph_two": "I have a good foundation in the Cybersecurity Frameworks namely, NIST, MITRE, OWASP, and have worked with tools like Burpsuite, Owasp ZAP, Wireshark, Metasploit, Ghidra, NMap, OpenSSL, Lynis, Microsoft Threat Modeling Tool, Valgrind, etc and have implemented proof-of-exploitations for games like Duke Nukem.",
-		"paragraph_three": "I have Bachelor in Technology from IIITS, India in Computer Science and Engineering and am apt in Secure Software Development Life Cycle (SDLC) integration and Cloud Computing. I am an active CTF participant and a Kaggle Contributor. I am apt in competitive programming in C/C++, and Python languages.",
+		"paragraph_three": "I have a Bachelor in Technology from IIITS, India in Computer Science and Engineering and am apt in Secure Software Development Life Cycle (SDLC) integration and Cloud Computing. I am an active CTF participant and a Kaggle Contributor. I am apt in competitive programming in C/C++, and Python languages.",
 		"github_card": {
 			"bio": "Security Engineer with interest in Application Security and experience in Secure Software Development."
 		},
@@ -30,85 +30,92 @@
 		"createdLabel": "Created at",
 		"projects": {
 			"id_1": {
+				"title": "CAPTCHA",
+				"description": "Innovated a human-solvable CAPTCHA system in Golang to bolster security against offline dictionary attacks. The system featured three unique puzzles: Sudoku, Chess, & Cryptographic Hash Puzzle. Performed comparative analysis with cutting edge solutions leading to our finding of 30% less likelihood of successful dictionary attacks against offline files.",
+				"url": "https://github.com/chinmayL27/Captcha_project",
+				"filter": ["SECURITY"],
+				"createdAt": "January 25, 2024"
+			},
+			"id_2": {
 				"title": "Assuring Safe Navigation & Network \n Operations of Autonomous Ships",
 				"description": "Presented at IEEE CCWC 2024, I implemented an ML Security Monitor for battleship infrastructure. The model achieved 98.5% accuracy in detecting cyber threats in ICS networks, validating its effectiveness through penetration tests on power systems and weapon controls.",
 				"url": "https://github.com/KR4K3N-CIP",
 				"filter": ["PUBLISHED", "SECURITY", "ML"],
 				"createdAt": "November 30, 2023"
 			},
-			"id_2": {
+			"id_3": {
 				"title": "Penetration Testing and Vulnerability Assessment \n of OpenEMR ",
-				"description": "Performed security testing of OpenEMR, identifying vulnerabilities like SQLi, DoS, buffer overflows and XSS. Used tools including Burp Suite, OWASP ZAP, SQLMAP, and Wireshark to detect issues. Documented proof of exploitation along with remediation recommendations.",
+				"description": "Performed security testing of OpenEMR, identifying vulnerabilities like SQLi, DoS, buffer overflows, and XSS. Used tools including Burp Suite, OWASP ZAP, SQLMAP, and Wireshark to detect issues. Documented proof of exploitation along with remediation recommendations.",
 				"url": "https://github.com/Sad-0w/SPC_final_project",
 				"filter": ["SECURITY"],
 				"createdAt": "October 14, 2023"
 			},
-			"id_3": {
+			"id_4": {
 				"title": "Angband",
 				"description": "Developed proof-of-concept exploit achieving root access by reverse engineering Angband game binary to locate format string vulnerability. Used IDA Pro and GDB to analyze vulnerability and craft input to exploit stack overflow, redirect code execution flow, and open remote shell.",
 				"filter": ["SECURITY"],
 				"createdAt": "November 14, 2023"
 			},
-			"id_4": {
+			"id_5": {
 				"title": "Duke Nukem II",
-				"description": "Exploited buffer overflow in Duke Nukem game binary to achieve remote root shell access. Reverse engineered binary using Ghidra to identify vulnerable function and crafted malicious input. Developed proof-of-concept demonstrating arbitrary code execution via shellcode injection and redirecting control flow using buffer overflow technique.",
+				"description": "Exploited buffer overflow in Duke Nukem game binary to achieve remote root shell access. Reverse-engineered binary using Ghidra to identify vulnerable function and crafted malicious input. Developed proof-of-concept demonstrating arbitrary code execution via shellcode injection and redirecting control flow using buffer overflow technique.",
 				"filter": ["SECURITY"],
 				"createdAt": "September 20, 2023"
 			},
-			"id_5": {
+			"id_6": {
 				"title": "Open-Source Web Server Security Assessment",
 				"description": "Conducted threat modeling on an open-source web server using SciTool Understand and Microsoft Threat Modeling Tool. Produced an executive summary detailing risks and employed Ghidra and Veles for reverse engineering, bolstering the system's security posture.",
 				"filter": ["SECURITY"],
 				"createdAt": "August 30, 2023"
 			},
-			"id_6": {
+			"id_7": {
 				"title": "Intrusion Detection System for IoT",
 				"description": "Simulated DDoS attack in IoT devices, like flooding on CoAP network using Cooja simulator, leveraged the simulation data to train an ML model for detection of unusual traffic.",
 				"filter": ["SECURITY", "ML"],
 				"createdAt": "March 24, 2023"
 			},
-			"id_7": {
+			"id_8": {
 				"title": "Deep Learning based Disease Classifier for X-Rays",
 				"description": "Application resulting from Rocketseat's Next Level Week #04. The application allows calculating the company's NPS (Net Promoter Score) through satisfaction surveys sent to users by email.",
 				"url": "https://www.kaggle.com/code/chinmay2711/12-2023-image",
 				"filter": ["ML"],
 				"createdAt": "December 10, 2023"
 			},
-			"id_8": {
-				"title": "Blockchain based e-voting System",
-				"description": "Designed and built a tamper-proof, decentralized e-voting system on Ethereum blockchain through commit-reveal mechanisms. Hardened system security by building Solidity smart contracts with audited OpenZeppelin libraries, optimized consensus algorithms, IPFS integration and MetaMask identity management resulting in enhanced transparency, scalability, and reduced gas costs by 8%.",
+			"id_9": {
+				"title": "Blockchain-based e-voting System",
+				"description": "Designed and built a tamper-proof, decentralized e-voting system on the Ethereum blockchain through commit-reveal mechanisms. Hardened system security by building Solidity smart contracts with audited OpenZeppelin libraries, optimized consensus algorithms, IPFS integration and MetaMask identity management resulting in enhanced transparency, scalability, and reduced gas costs by 8%.",
 				"url": "https://github.com/chinmayL27/eVoting",
 				"filter": ["SECURITY", "WEB", "BLOCKCHAIN"],
 				"createdAt": "December 1, 2022"
 			},
-			"id_9": {
+			"id_10": {
 				"title": "Card Fraud Detection",
 				"description": "Investigated anonymized card data, identified feature relationships through visualizations, and engineered ensemble models to detect credit card fraud with 99.9% accuracy, reducing false positives by 20%.",
 				"url": "https://www.kaggle.com/code/ashar7777/card-fraud",
 				"filter": ["ML"],
 				"createdAt": "October 24, 2022"
 			},
-			"id_10": {
+			"id_11": {
 				"title": "OpenZepplin Supply chain",
 				"description": "Developed blockchain-based supply chain system using Solidity, OpenZeppelin, Truffle, and Web3, integrating web interfaces for server-chain communication. Enhanced efficiency by 10% and improved security.",
 				"filter": ["WEB", "BLOCKCHAIN"],
 				"createdAt": "August 16, 2022"
 			},
-			"id_11": {
+			"id_12": {
 				"title": "News-Aggregator",
 				"description": " Developed a MERN-based web application for integrating news from assorted sources of varying genres by applying several information retrieval techniques, resulting in 30% reduction in similar sentences by applying cosine-based similarity detection.",
 				"url": "https://github.com/chinmayL27/News-Aggregator",
 				"filter": ["WEB"],
 				"createdAt": "February 20, 2022"
 			},
-			"id_12": {
+			"id_13": {
 				"title": "IRS Library Manager",
 				"description": "Developed an Information-Retrieval System for a large database of books with user-friendly interface using Flask. This gives an easy and extended version to library-management systems built for large scale institutions.",
 				"url": "https://github.com/chinmayL27/IR-System_Book-Search",
 				"filter": ["WEB"],
 				"createdAt": "November 5, 2021"
 			},
-			"id_13": {
+			"id_14": {
 				"title": "GATEWAY application for societies",
 				"description": "Developed and presented a management system for apartments in the area, facilitating easy communication, complaint and announcement forums, and other utilities to provide a smoother management experience for residents of a community.",
 				"url": "https://github.com/chinmayL27/GATEWAY",
