@@ -39,14 +39,14 @@
 			"id_2": {
 				"title": "Assuring Safe Navigation & Network \n Operations of Autonomous Ships",
 				"description": "Presented at IEEE CCWC 2024, I implemented an ML Security Monitor for battleship infrastructure. The model achieved 98.5% accuracy in detecting cyber threats in ICS networks, validating its effectiveness through penetration tests on power systems and weapon controls.",
-				"url": "https://github.com/KR4K3N-CIP",
+				"url": "https://ieeexplore.ieee.org/abstract/document/10427933",
 				"filter": ["PUBLISHED", "SECURITY", "ML"],
 				"createdAt": "November 30, 2023"
 			},
 			"id_3": {
 				"title": "Penetration Testing and Vulnerability Assessment \n of OpenEMR ",
 				"description": "Performed security testing of OpenEMR, identifying vulnerabilities like SQLi, DoS, buffer overflows, and XSS. Used tools including Burp Suite, OWASP ZAP, SQLMAP, and Wireshark to detect issues. Documented proof of exploitation along with remediation recommendations.",
-				"url": "https://github.com/Sad-0w/SPC_final_project",
+				"url": "https://github.com/chinmayL27/SPC_final_project",
 				"filter": ["SECURITY"],
 				"createdAt": "October 14, 2023"
 			},
@@ -65,6 +65,7 @@
 			"id_6": {
 				"title": "Open-Source Web Server Security Assessment",
 				"description": "Conducted threat modeling on an open-source web server using SciTool Understand and Microsoft Threat Modeling Tool. Produced an executive summary detailing risks and employed Ghidra and Veles for reverse engineering, bolstering the system's security posture.",
+				"url": "https://github.com/chinmayL27/WebServer-Security-Assessment/",
 				"filter": ["SECURITY"],
 				"createdAt": "August 30, 2023"
 			},
